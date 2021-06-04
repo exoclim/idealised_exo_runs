@@ -9,7 +9,11 @@ Code to reproduce plots from Mayne et al. (2014) showing temperature forcing and
 
 ## Setting up
 1. Install Miniconda/[Miniforge/Mambaforge](https://github.com/conda-forge/miniforge).
-2. In the command line, navigate to this folder and type
+2. Install `jupyter lab` and `nb_conda_kernels`
+```bash
+conda install -c conda-forge jupyterlab nodejs nb_conda_kernels
+```
+3. In the command line, navigate to this folder and type
 ```bash
 conda env create --file environment.yml
 ```
