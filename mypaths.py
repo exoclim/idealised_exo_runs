@@ -5,14 +5,8 @@ from pathlib import Path
 # Top-level directory containing code and data (one level up)
 topdir = Path(__file__).absolute().parent.parent
 
-# Code location (also Path.cwd())
-codedir = topdir / "code"
-
-# Constants
-constdir = codedir / "const"
-
 # Modelling results
-datadir = topdir / "modelling" / "um" / "results"
+datadir = topdir.parent / "modelling" / "um" / "results"
 
 sadir = datadir / "sa"  # standalone suites directory
 

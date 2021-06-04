@@ -6,6 +6,8 @@ import iris
 
 import matplotlib.pyplot as plt
 
+import numpy as np
+
 from aeolus.calc import spatial_mean
 from aeolus.model import um
 

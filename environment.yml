@@ -2,10 +2,10 @@ name: ideal_exo
 channels:
 - conda-forge
 dependencies:
-- aeolus
 - dask
 - flake8
 - ipykernel
+- ipywidgets
 - iris>=3.0
 - matplotlib>=3.4
 - numpy
@@ -13,3 +13,5 @@ dependencies:
 - pip
 - python-stratify
 - tqdm
+- pip:
+  - git+https://github.com/exoclim/aeolus.git
