@@ -2,7 +2,7 @@ name: ideal_exo
 channels:
 - conda-forge
 dependencies:
-- aeolus>=0.4.10
+- aeolus>=0.4.11
 - dask
 - flake8
 - ipykernel
