@@ -1,4 +1,4 @@
-[![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg?logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg?logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](LICENSE)
 [![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
@@ -8,12 +8,13 @@
 Code to reproduce plots from Mayne et al. (2014) showing temperature forcing and tidally locked runs.
 
 ## Setting up
-1. Install Miniconda/[Miniforge/Mambaforge](https://github.com/conda-forge/miniforge).
-2. Install `jupyter lab` and `nb_conda_kernels`
+1. Install [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge).
+2. Install `jupyter lab` and `nb_conda_kernels` into your `base` environment.
 ```bash
-conda install -c conda-forge jupyterlab nodejs nb_conda_kernels
+mamba install jupyterlab nodejs nb_conda_kernels
 ```
-3. In the command line, navigate to this folder and type
+3. Download or `git clone` this repository.
+4. In the command line, navigate to the local copy of this repository and type
 ```bash
-conda env create --file environment.yml
+mamba env create --file=environment.yml
 ```

@@ -1,6 +1,0 @@
-[submodule "iris"]
-	path = iris
-	url = https://github.com/SciTools/iris.git
-[submodule "iris-esmf-regrid"]
-	path = iris-esmf-regrid
-	url = https://github.com/SciTools-incubator/iris-esmf-regrid

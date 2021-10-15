@@ -2,16 +2,38 @@ name: ideal_exo
 channels:
 - conda-forge
 dependencies:
-- aeolus>=0.4.12
-- dask
-- flake8
-- ipykernel
-- ipywidgets
-- iris>=3.1
-- iris-esmf-regrid
-- matplotlib>=3.4
-- numpy
-- python=3.9
-- pip
-- python-stratify
-- tqdm
+  - python =3.8
+
+# Setup dependencies.
+  - setuptools >=40.8.0
+
+# Core dependencies.
+  - cartopy >=0.20
+  - cf-units >=3
+  - cftime >=1.5
+  - dask >=2
+  - matplotlib >=3.4
+  - netcdf4
+  - numpy >=1.14
+  - python-xxhash
+  - scipy
+
+# Optional dependencies.
+  - esmpy >=7.0
+  - flake8
+  - graphviz
+  - ipykernel
+  - ipywidgets
+  - iris-sample-data >=2.4.0
+  - mo_pack
+  - nc-time-axis >=1.3
+  - pandas
+  - pip
+  - python-stratify
+  - tqdm
+
+# Dev dependencies
+  - pip:
+    - git+https://github.com/scitools/iris
+    - git+https://github.com/scitools-incubator/iris-esmf-regrid@unstructured_scheme
+    - git+https://github.com/exoclim/aeolus
