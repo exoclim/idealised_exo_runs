@@ -18,3 +18,9 @@ mamba install jupyterlab nodejs nb_conda_kernels
 ```bash
 mamba env create --file=environment.yml
 ```
+
+## Updating the environment
+If upstream dependencies have been changed, you can update the existing environment by running
+```bash
+mamba env update --file=environment.yml
+```
