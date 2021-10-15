@@ -2,12 +2,13 @@ name: ideal_exo
 channels:
 - conda-forge
 dependencies:
-- aeolus>=0.4.11
+- aeolus>=0.4.12
 - dask
 - flake8
 - ipykernel
 - ipywidgets
-- iris>=3.0
+- iris>=3.1
+- iris-esmf-regrid
 - matplotlib>=3.4
 - numpy
 - python=3.9
